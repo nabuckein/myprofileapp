@@ -1,0 +1,30 @@
+.sideNavbarDiv{
+    border:solid white 1px;
+    width:15%;
+}
+.buttonsDiv{    
+    display:flex;
+    flex-direction: column;
+    margin:0px 0px 0px 10px;
+}
+.buttons{
+    width:140px;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    background-color: steelblue;
+    color:white;
+    margin:5px 0px 0px 0px;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 20px;
+}
+.buttons:hover{
+    background-color: teal;
+    color:white;
+    border:solid white 1px;
+}
+.buttons:active{
+    background-color: green;
+    color:greenyellow;
+    border:solid greenyellow 3px;
+}
